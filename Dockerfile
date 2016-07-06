@@ -9,5 +9,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     gfortran && \
     rm -rf /var/lib/apt/lists/*
     
-# install numpy
+# install scipy
 RUN pip install scipy
